@@ -1,0 +1,9 @@
+[package]
+name = "partman"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mbrs = {version = "0.3.1", features = ["no-std"], default-features = false}
+gpt-parser = { version = "0.0.10", features = ["no_std"], default-features = false }
+log = "0.4.21"
